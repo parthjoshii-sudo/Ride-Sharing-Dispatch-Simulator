@@ -28,25 +28,21 @@ That driver is removed from the available list.
 
 The ride is recorded in history for later review.
 
->>Example input
+#Example input
 
 Add some drivers
 add_driver(1, "aman", 2.5, 4.8)
 add_driver(2, "riya", 3.5, 1.8)
 add_driver(3, "sahihl", 4.8, 4.2)
 
-# Riders request rides
 request_ride("joy")
 request_ride("arpit")
 
-# Match riders to drivers
 match_driver()
 match_driver()
-
-# See who got matched
 show_history()
 
->>Output
+#Output
 
 Rider 'joy' added to queue.
 Rider 'arpit' added to queue.
